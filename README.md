@@ -8,13 +8,32 @@ https://www.javatpoint.com/example-to-connect-to-the-mysql-database
 
 2.you should create a database with name of "project" 
 3. create a table "new_application " in project database;
+ -- -----------------------------------------------------------------
+create table new_application(
+ name varchar(40),
+ mob varchar(40),
+ addr varchar(40),
+ gender varchar(40),
+ dob varchar(40),
+ amount varchar(40),
+ no_of_year varchar(40),
+ loan_type varchar(40),
+ username varchar(40),
+ password varchar(20),
+ status varchar(20),
+ primary key(username,password)
+ 
+ 
+);
 
-*In the code you should change this line of code with this
+
+-------------------------------------------------------------------------------
 
 Connection con=DriverManager.getConnection(
 "jdbc:mysql://localhost:3306/project","root","ambesh");
 
  *where you change root with your username and ambesh with password of you MYSQL .
+*In the code you should change this line of code with this
 
   By default username is already root.
 
