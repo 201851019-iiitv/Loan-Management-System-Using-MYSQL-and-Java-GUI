@@ -2,12 +2,14 @@
 
 RUN PROCESS:
 
-First You should connect your java ide with JDBC(Java Database Connectivity) Here the full reference of How to connect JDBC with MY SQL https://www.javatpoint.com/example-to-connect-to-the-mysql-database
+First You should connect your java ide with JDBC(Java Database Connectivity) 
+Here the full reference of How to connect JDBC with MY SQL :
+https://www.javatpoint.com/example-to-connect-to-the-mysql-database
 
 2.you should create a database with name of "project" 
 3. create a table "new_application " in project database;
 
-In the code you should change this line of code with this
+*In the code you should change this line of code with this
 
 Connection con=DriverManager.getConnection(
 "jdbc:mysql://localhost:3306/project","root","ambesh");
@@ -28,11 +30,12 @@ OUTPUT :
 # if click   new Customer   first you  get registration form :
 ![regist](https://user-images.githubusercontent.com/48892208/85873588-f7759880-b7ee-11ea-9643-2f826f587ff3.png)
 
-# after register you can login as exist customer  by using username and password can see all details of his and staus of application also :
+# after register you can login as exist customer  by using username and password can see all details of his and status of application also :
 ![login](https://user-images.githubusercontent.com/48892208/85874048-aa45f680-b7ef-11ea-8551-372e59cba96d.png)
-![regist](https://user-images.githubusercontent.com/48892208/85874060-ae721400-b7ef-11ea-986a-e270c383f705.png)
+![details](https://user-images.githubusercontent.com/48892208/85876473-648b2d00-b7f3-11ea-80df-31c780122c5f.png)
 
-# admin(Bank manager) can login  then after admin have 3 option  and he can application status update as passed or rejected or otherwise no action show pending application :
+
+# admin(Bank manager) can login  ,then after admin have 3 option  and he can application status update as passed or rejected or otherwise no action show pending application :
 
 ![admin](https://user-images.githubusercontent.com/48892208/85874546-6c959d80-b7f0-11ea-9471-0a7212af45ea.png)
 ![buttonadmin](https://user-images.githubusercontent.com/48892208/85874550-6e5f6100-b7f0-11ea-8510-7fb430608202.png)
@@ -48,7 +51,7 @@ OUTPUT :
  ![dob](https://user-images.githubusercontent.com/48892208/85875485-e5492980-b7f1-11ea-8f83-6c655eb38275.png)
 ![data](https://user-images.githubusercontent.com/48892208/85875493-e8441a00-b7f1-11ea-8b2f-a4c397f78fa8.png)
 
-# admin (Bank manager) can see all borrower to hom much amount remaining to pay 
+* admin (Bank manager) can see all borrower to hom much amount remaining to pay 
 
 # if user login as exist customer and status is passed it have 3 option :
 
