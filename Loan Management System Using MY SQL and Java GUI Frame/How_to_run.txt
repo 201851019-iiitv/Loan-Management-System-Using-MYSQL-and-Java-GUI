@@ -1,0 +1,8 @@
+ 1.install ecllipse 
+2.add reference library(JDBC connector)
+3.open project in eclipse and go to src folder 
+4.inside src run ex.java and continue;
+--------------------------------------------------------------------------
+for more details about how to run and get the project folder ,go to link :
+https://github.com/201851019-iiitv/Loan-Management-System-Using-MYSQL-and-Java-GUI/blob/master/README.md
+
