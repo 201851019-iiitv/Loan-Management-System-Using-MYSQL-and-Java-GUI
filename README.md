@@ -32,10 +32,32 @@ OUTPUT :
 ![login](https://user-images.githubusercontent.com/48892208/85874048-aa45f680-b7ef-11ea-8551-372e59cba96d.png)
 ![regist](https://user-images.githubusercontent.com/48892208/85874060-ae721400-b7ef-11ea-986a-e270c383f705.png)
 
-# admin can login  then after admin have 3 option  and he can application status update as passed or rejected or otherwise no action show pending application :
+# admin(Bank manager) can login  then after admin have 3 option  and he can application status update as passed or rejected or otherwise no action show pending application :
 
 ![admin](https://user-images.githubusercontent.com/48892208/85874546-6c959d80-b7f0-11ea-9471-0a7212af45ea.png)
 ![buttonadmin](https://user-images.githubusercontent.com/48892208/85874550-6e5f6100-b7f0-11ea-8510-7fb430608202.png)
+
+# if admin (Bank manager) choose  pending application then he can see all pending application :
+![pending](https://user-images.githubusercontent.com/48892208/85875179-753aa380-b7f1-11ea-92d0-93d7f284a11c.png)
+# if  admin (Bank manager) choose  passed application then he can see all passed application :
+![passed](https://user-images.githubusercontent.com/48892208/85875172-7370e000-b7f1-11ea-920d-936c6e4f67dc.png)
+# admin  (Bank manager) can also check a specific user by his name and dob and can changed the status :
+ if status is already passed then admin haven't to change the status 
+ if  status is pending he can change the status  to passed/rejected 
+ if choose rejected then application deleted from database
+ ![dob](https://user-images.githubusercontent.com/48892208/85875485-e5492980-b7f1-11ea-8f83-6c655eb38275.png)
+![data](https://user-images.githubusercontent.com/48892208/85875493-e8441a00-b7f1-11ea-8b2f-a4c397f78fa8.png)
+
+# admin (Bank manager) can see all borrower to hom much amount remaining to pay 
+
+# if user login as exist customer and status is passed it have 3 option :
+
+![3button](https://user-images.githubusercontent.com/48892208/85876193-fba3b500-b7f2-11ea-8295-731c58caa532.png)
+
+a)pay the installement : if pay then is upadate is remaining balance and print remaining balance also on screen.
+b)calculate the emi : he can caculate monthly emi using fill amount year and rate is already filled by bank manager.
+c)see remaining balance 
+ 
 
 
 
