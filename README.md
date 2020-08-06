@@ -1,5 +1,6 @@
 # Loan-Management-System-Using-MYSQL-and-Java-GUI
 
+<img src= "https://visitor-badge.laobi.icu/badge?page_id=201851019-iiitv/Loan-Management-System-Using-MYSQL-and-Java-GUI " alt="visitor badge"/> |  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/201851019-iiitv/Loan-Management-System-Using-MYSQL-and-Java-GUI/master)
 RUN PROCESS:
 
 First You should connect your java ide with JDBC(Java Database Connectivity) 
